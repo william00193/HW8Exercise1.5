@@ -34,12 +34,7 @@ class PhotoViewHolder(
 
             binding.root.context.startActivity(intent)
 
-//Toast for Flickr
-//            Toast.makeText(
-//                binding.root.context,
-//                "${galleryItem.title}",
-//                Toast.LENGTH_SHORT
-//            ).show()
+
 
         }
 

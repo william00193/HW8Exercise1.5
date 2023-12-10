@@ -32,6 +32,7 @@ class PhotoGalleryViewModel: ViewModel() {
         .create(FlickrAPI::class.java)
 
 
+
 //Function/Pager that is getting the photos from the API and defining the page size
     fun getPhotos(): Flow<PagingData<GalleryItem>> {
         return Pager(

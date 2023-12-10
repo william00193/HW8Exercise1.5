@@ -97,7 +97,7 @@ class PhotoGalleryFragment : Fragment() {
         }
 
         override fun areContentsTheSame(oldItem: GalleryItem, newItem: GalleryItem): Boolean {
-            return oldItem.id == newItem.id
+            return oldItem == newItem
         }
 
     }

@@ -27,8 +27,6 @@ class SecondActivity : AppCompatActivity() {
         Glide.with(this).load(image_url).into(imageView)
 
 
-
-
 //Step 1: Finding my previously saved data
         val title = intent.getStringExtra("title")
 
